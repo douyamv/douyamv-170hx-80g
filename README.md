@@ -14,7 +14,8 @@ later entries depend on earlier ones.
 | # | Status |
 |---|---|
 | [0001](0001/) | ✅ published |
-| 0002 – 0011 | pending |
+| [0002](0002/) | ✅ published |
+| 0003 – 0011 | pending |
 | [0012](0012/) | ✅ published |
 | 0013 – 0014 | pending |
 | [0015](0015/) | ✅ published |
@@ -27,6 +28,7 @@ later entries depend on earlier ones.
 ## Published
 
 - **0001** — the HS ROP fire channel (infrastructure)
+- **0002** — 80G geometry unlock (CFG1/LMR/SS/CSTATUS)
 - **0012** — boot gate hash maintenance
 - **0015** — single source of truth (config shadowing)
 
