@@ -15,15 +15,20 @@ later entries depend on earlier ones.
 |---|---|
 | [0001](0001/) | ✅ published |
 | [0002](0002/) | ✅ published |
-| 0003 – 0011 | pending |
+| 0003 – 0011 | not public |
 | [0012](0012/) | ✅ published |
-| 0013 – 0014 | pending |
+| 0013 – 0014 | not public |
 | [0015](0015/) | ✅ published |
-| 0016 | pending |
-| 9999 | pending |
+| 0016 | not public |
+| 9999 | not public |
 
-> Remaining entries will be published once verified and finalized.
 > Unpublished directories keep only their number — no titles, no content.
+>
+> **Contact**: If your own research has gone further than this project, open an
+> **Issue** and share your results first (post your findings/evidence), or reach
+> out privately to exchange them. In particular we would like to compare notes
+> on the **data-layer folding**: whether you still observe address aliasing
+> beyond ~39 GB after geometry unlock, and how (or whether) you resolved it.
 
 ## Published
 
