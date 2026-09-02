@@ -21,7 +21,7 @@
      `nvidia-graphics-drivers-kms.conf` 等）中的 nvidia 主模块行全部删除
      （`nvidia_drm`/`nvidia_uvm` 行不冲突，保留）
 2. **版本动物园清除**（`deploy/purge-versions.sh`，两台机已执行）：
-   - 删 `~/tests/hs-lmr-shadow/`（几十个历史 .ko）
+   - 删 `/home/douya/tests/hs-lmr-shadow/`（几十个历史 .ko）
    - 删 tests 下散落 .ko、/tmp 模块副本
    - 删旧源码树 `cmpunlocker-80exp-20260824/`（**Mac 的 `deploy/src-tree-610.43.02-cmp80.tgz` 为唯一权威源码**）
    - 校验：`grep -l "^\s*options\s+nvidia\s" /etc/modprobe.d/*.conf` 必须只返回 1 个文件

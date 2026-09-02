@@ -1,27 +1,37 @@
 # douyamv-170hx-80g
 
-NVIDIA CMP 170HX 80G 解锁项目的**方案编号库**。
+[中文版](README.zh-CN.md)
 
-每个问题一个编号，每条方案五要素：**解决什么错误 / 具体改动 / 验证方法 / 依赖 / 踩过的坑**。
-编号按实验递进顺序排列，存在依赖关系（后续方案依赖前置编号）。
+Solution knowledge base for the NVIDIA CMP 170HX 80G unlock project.
 
-## 目录
+One numbered entry per problem. Every entry has five elements:
+**what error it solves / the exact change / how to verify (which log line) /
+dependencies / pitfalls**. Numbers follow the experimental progression;
+later entries depend on earlier ones.
 
-| 编号 | 状态 |
+## Index
+
+| # | Status |
 |---|---|
-| 0001 – 0011 | 待公开 |
-| [0012](0012/) | ✅ 已公开 |
-| 0013 – 0014 | 待公开 |
-| [0015](0015/) | ✅ 已公开 |
-| 0016 | 待公开 |
-| 9999 | 待公开 |
+| [0001](0001/) | ✅ published |
+| 0002 – 0011 | pending |
+| [0012](0012/) | ✅ published |
+| 0013 – 0014 | pending |
+| [0015](0015/) | ✅ published |
+| 0016 | pending |
+| 9999 | pending |
 
-> 其余编号将在验证定案后陆续公开。未公开目录只保留编号占位，不含任何内容。
+> Remaining entries will be published once verified and finalized.
+> Unpublished directories keep only their number — no titles, no content.
 
-## 已公开
+## Published
 
-- **0012 — 开机 gate 哈希维护**：换模块后 systemd 校验失败的定位与修复，含"两份脚本副本"这个最容易踩的坑。
-- **0015 — 配置单一来源（conf 遮蔽）**：多个配置文件重复设置同名模块参数互相遮蔽，导致"以为在生效的参数其实被覆盖"。附清理规程与自检命令。
+- **0001** — the HS ROP fire channel (infrastructure)
+- **0012** — boot gate hash maintenance
+- **0015** — single source of truth (config shadowing)
+
+Entry contents are written in Chinese; this top-level README is provided
+in English with a Chinese version linked above.
 
 ## License
 

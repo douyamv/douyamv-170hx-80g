@@ -12,7 +12,7 @@ CMP170HX_POSTBOOT_GATE_FAIL: production module hash mismatch
 
 ```
 /usr/local/sbin/cmp170hx-postboot-gate      ← systemd 跑这份（改这份！）
-~/tests/cmp170hx-postboot-gate.sh ← 只是副本，改它无效
+/home/douya/tests/cmp170hx-postboot-gate.sh ← 只是副本，改它无效
 ```
 
 ```bash
