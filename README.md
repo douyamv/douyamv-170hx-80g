@@ -43,9 +43,8 @@ English with a Chinese version linked above.
 
 > **The 10GB variant is the one to get.** Its memory subsystem is the single
 > biggest differentiator: **up to 1.9 TB/s of bandwidth** (5120-bit HBM2e @ 3.0
-> Gbps) — roughly 12× an RTX 4090 and ~2.4 TB/s+ is achievable in some samples
-> with tuning. This is why the card performs far beyond its price class for
-> LLM inference, where tokens/s is bandwidth-bound.
+> Gbps) — nearly 2× an RTX 4090 (1008 GB/s), and the reason this card punches
+> far above its price for LLM inference, where tokens/s is bandwidth-bound.
 
 | Spec | CMP 170HX **8GB** | CMP 170HX **10GB** |
 |---|---|---|
