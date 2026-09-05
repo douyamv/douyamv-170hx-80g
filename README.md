@@ -11,8 +11,7 @@ later entries depend on earlier ones.
 
 ## Result
 
-**40 GB is stably unlocked and verified. 80 GB has folding (address aliasing)
-that is not yet resolved** — see entries 0013/0016 for details.
+**10GB variant: 40 GB is stably unlocked and verified (64 GB addressable with folding above). 8GB variant: 64 GB addressable. 80 GB / 64 GB regions have folding (address aliasing) that is not yet resolved** — see entries 0013/0016 for details.
 
 ## Index
 
@@ -52,7 +51,7 @@ English with a Chinese version linked above.
 |---|---|---|
 | **Memory bandwidth** | ~1.6 TB/s (4096-bit HBM2e) | **~1.9 TB/s (5120-bit HBM2e @ 3.0 Gbps)** ⭐ |
 | Memory size (stock) | 8 GB HBM2e | 10 GB HBM2e |
-| Memory size (unlocked, this project) | up to 64 GB addressable | up to 80 GB addressable |
+| Memory size (unlocked, this project) | up to 64 GB addressable | up to 40 GB addressable |
 | GPU die | GA100 (A100 silicon) | GA100 (A100 silicon) |
 | SMs / Tensor Cores | 108 / 432 (die full, unlockable) | 108 / 432 (die full, unlockable) |
 | FP32 | ~19.5 TFLOPS (unlocked) | ~19.5 TFLOPS (unlocked) |
@@ -61,7 +60,6 @@ English with a Chinese version linked above.
 | NVLink | none (disabled) | none (disabled) |
 | PCIe | Gen1 x16 stock → Gen2 unlocked | Gen1 x16 stock → Gen2 unlocked |
 | TDP | 250 W | 250 W |
-| Typical LLM use | 40 GB workable, folding above | 40 GB workable, folding above |
 
 ### Why bandwidth dominates
 
