@@ -48,9 +48,9 @@ NVIDIA CMP 170HX 80G 解锁项目的方案编号库。
 | 显存容量（出厂） | 8 GB HBM2e | 10 GB HBM2e |
 | 显存容量（本项目解锁后） | 可寻址 64 GB | 可寻址 40 GB |
 | GPU 核心 | GA100（A100 同芯） | GA100（A100 同芯） |
-| SM / Tensor Core | 108 / 432（满 die，可解锁） | 108 / 432（满 die，可解锁） |
-| FP32 | ~19.5 TFLOPS（解锁后） | ~19.5 TFLOPS（解锁后） |
-| FP16 Tensor | ~77 TFLOPS（解锁后） | ~77 TFLOPS（解锁后） |
+| SM / Tensor Core | 有阉割（**少约 25%**，部分关闭） | **满配，多 25% SM** ⭐ |
+| FP32 | 较低（受 SM 数限制） | **高约 25%** ⭐ |
+| FP16 Tensor | 较低（受 SM 数限制） | **高约 25%** ⭐ |
 | FP16 Tensor（出厂） | ~6.3 TFLOPS（固件阉割） | ~6.3 TFLOPS（固件阉割） |
 | NVLink | 无（已禁用） | 无（已禁用） |
 | PCIe | 出厂 Gen1 x16 → 解锁 Gen2 | 出厂 Gen1 x16 → 解锁 Gen2 |

@@ -52,9 +52,9 @@ English with a Chinese version linked above.
 | Memory size (stock) | 8 GB HBM2e | 10 GB HBM2e |
 | Memory size (unlocked, this project) | up to 64 GB addressable | up to 40 GB addressable |
 | GPU die | GA100 (A100 silicon) | GA100 (A100 silicon) |
-| SMs / Tensor Cores | 108 / 432 (die full, unlockable) | 108 / 432 (die full, unlockable) |
-| FP32 | ~19.5 TFLOPS (unlocked) | ~19.5 TFLOPS (unlocked) |
-| FP16 Tensor | ~77 TFLOPS (unlocked) | ~77 TFLOPS (unlocked) |
+| SMs / Tensor Cores | reduced (≈25% fewer, partially disabled) | **full die — 25% more SMs** ⭐ |
+| FP32 | lower (SM-limited) | **~25% higher FP32** ⭐ |
+| FP16 Tensor | lower (SM-limited) | **~25% higher Tensor** ⭐ |
 | FP16 Tensor (stock) | ~6.3 TFLOPS (firmware-capped) | ~6.3 TFLOPS (firmware-capped) |
 | NVLink | none (disabled) | none (disabled) |
 | PCIe | Gen1 x16 stock → Gen2 unlocked | Gen1 x16 stock → Gen2 unlocked |
